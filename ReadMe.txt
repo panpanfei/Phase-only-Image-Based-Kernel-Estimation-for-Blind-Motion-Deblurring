@@ -14,8 +14,11 @@ Notes
 ----------------
 For algorithmic details, please refer to our paper.
 We give the result of our method in file 'result'. Include dataset from 'Levin', 'Kohler', 'Gong' and 'Pan'.
-For better result, some parameters are carefully designed. We also use some strategies like the 'patch-wise process' and 'coarse to fine', etc. 
-The current release version is mainly for tackle uniform motion blur, especially on linear motion. The non-uniform deblurring can be achieved by segment the input blur image to overlapped square patches. If you use our code, please also cite 
+For better result, some parameters are carefully designed. 
+We also use some strategies like the 'patch-wise process' and 'coarse to fine', etc. 
+The current release version is mainly for tackle uniform motion blur, especially on linear motion. 
+The non-uniform deblurring can be achieved by segment the input blur image to overlapped square patches. 
+If you use our code, please also cite 
   [1] Li Xu, Cewu Lu, Yi Xu, and Jiaya Jia. Image smoothing via l0 
       gradient minimization. ACM Trans. Graph., 30(6):174, 2011
   [2] S. Cho, J. Wang, and S. Lee, Handling outliers in non-blind image 
