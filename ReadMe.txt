@@ -42,7 +42,7 @@ There are a few parameters need to be specified by users.
 Kernel estimation part:
 ---------------
 'motionb'    :   1 for synthetic testing data
-'kernel_size':   the size of blur kernel
+'kernel_size':   the size of blur kernel  (traditional method usually needs to change this parameter manually)
 'auto_size'  :   the scale for autocorrelation
 'lambda_grad':   the weight for the L0 regularization on the gradient (typically set as 4e-3)
 ---------------
