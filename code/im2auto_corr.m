@@ -77,13 +77,15 @@ binLocations(idx) = [];
 counts(1:mloc) =[];
 binLocations(1:mloc)  = [];
 textv = [counts,binLocations];
-auto_s = min (floor(length(textv)./2),auto_size);
+% for choose scale %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%auto_s = min (floor(length(textv)./2),auto_size);
+auto_s = min (floor(length(textv)-1),auto_size);
 idxtv = find(counts<=50);
 if size(idxtv,1)~=1
         text_aut((text_aut <= textv(idxtv(1)-1,2))) = 0;
 end
 text_aut((text_aut < textv(end-auto_s,2))) = 0;
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 [a,b] = find(text_aut==max(text_aut(:)));
 
 aa = (text_aut==max(text_aut(:)));
