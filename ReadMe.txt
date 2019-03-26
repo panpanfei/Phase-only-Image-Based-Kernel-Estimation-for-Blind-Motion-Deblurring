@@ -48,7 +48,7 @@ Kernel estimation part:
 ---------------
 
 ----------------
-IMPORTANT NOTE 
+NOTE 
 ----------------
 1. Note: If you obtain such an incorrect result, please re-try to deblur with slightly changed parameters (e.g., using
    large blur kernel sizes or autocorrelation size). 
