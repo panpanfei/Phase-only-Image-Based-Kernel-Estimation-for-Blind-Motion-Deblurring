@@ -50,6 +50,6 @@ Kernel estimation part:
 ----------------
 IMPORTANT NOTE 
 ----------------
-1. Note that the algorithm sometimes may converge to an incorrect result. When you obtain such an incorrect result, please re-try to deblur with slightly changed parameters (e.g., using large blur kernel sizes or autocorrelation size). 
+1. Note: If you obtain such an incorrect result, please re-try to deblur with slightly changed parameters (e.g., using large blur kernel sizes or autocorrelation size). 
 2. Our method works better in linear uniform motion. 
 3.Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
