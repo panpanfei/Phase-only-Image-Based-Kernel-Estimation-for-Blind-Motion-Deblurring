@@ -57,8 +57,7 @@ IMPORTANT NOTE
 
 2. Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
 
-3. For the non-uniform blur, please refer to our paper and use a multi-patch strategy.
-For example, we segment the image into small patches in size 80*80 with an overlapping of 30 pixels.
+3. For the non-uniform blur, please refer to our paper and use a multi-patch strategy. For example, we segment the image into small patches in size 80*80 with an overlapping of 30 pixels.
 
 ### Notes for reproduce. 
 1. Following the equitions in our papar
