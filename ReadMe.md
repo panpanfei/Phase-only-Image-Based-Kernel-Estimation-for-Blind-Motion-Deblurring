@@ -52,11 +52,11 @@ User-specified parameter:
 
 IMPORTANT NOTE 
 ----------------
-1. Note that the algorithm sometimes may converge to an incorrect result. When you obtain such an incorrect result, please re-try to  deblur with slightly changed parameters (e.g., using large blur kernel sizes, fast, or iter_num).  
+1. Note that the algorithm sometimes may converge to an incorrect result. When you obtain such an incorrect result, please re-try to deblur with slightly changed parameters (e.g., using large blur kernel sizes, fast, or iter_num).  
 
 2. Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
 
-3. For the non-uniform blur, please refer to our paper and use a multi-patch strategy. For example, we segment the image into small patches in size 80*80 with an overlapping of 30 pixels.
+3. For the non-uniform blur, please refer to our paper and use a multi-patch strategy. For example, we segment the image into small patches in 80*80 with overlapping at 30 pixels.
 
 ### Notes for reproducing. 
 1. Following the equations in our paper
