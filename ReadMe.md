@@ -2,11 +2,11 @@
 ### This package contains an implementation of the image deblurring algorithm described in the paper: 
 
 @inproceedings{pan2019phase,  
-  title={Phase-only image based kernel estimation for single image blind deblurring},         
-  author={Pan, Liyuan and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},    
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},      
-  pages={6034--6043},     
-  year={2019}     
+    title={Phase-only image based kernel estimation for single image blind deblurring},         
+    author={Pan, Liyuan and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},    
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},      
+    pages={6034--6043},     
+    year={2019}     
 } 
 
 ### If you use our code, please also cite 
