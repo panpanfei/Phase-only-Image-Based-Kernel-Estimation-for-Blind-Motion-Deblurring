@@ -58,6 +58,6 @@ IMPORTANT NOTE
 
 3. For the non-uniform blur, please refer to our paper and use a multi-patch strategy. For example, we segment the image into small patches in size 80*80 with an overlapping of 30 pixels.
 
-### Notes for reproduce. 
-1. Following the equitions in our papar
-2. Coded some process (e.g., fft or corralation) by yourself instead of using inbuid functions.
+### Notes for reproducing. 
+1. Following the equations in our paper
+2. Coded some process (e.g., FFT or correlation) by yourself instead of using in-built functions. Or check their settings first.
