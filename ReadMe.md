@@ -1,4 +1,4 @@
-# For academic use only.
+# For academic use only
 This contains an implementation of the image deblurring algorithm described in: [Phase-only image based kernel estimation for single image blind deblurring, CVPR2019.](https://openaccess.thecvf.com/content_CVPR_2019/papers/Pan_Phase-Only_Image_Based_Kernel_Estimation_for_Single_Image_Blind_Deblurring_CVPR_2019_paper.pdf) 
 
 <pre>
@@ -13,10 +13,10 @@ This contains an implementation of the image deblurring algorithm described in: 
 
 How to use
 ----------------
-The code is tested in MATLAB 2015b (64bit) under the ubuntu 14.04 LTS 64bit version with an Intel Core i7-4790 CPU and 6 GB RAM.
+The codes are tested in MATLAB 2015b (64bit) under ubuntu 14.04 LTS 64bit version with an Intel Core i7-4790 CPU and 6 GB RAM.
 
 1. Unpack the package.      
-2. Add code to your Matlab path.      
+2. Add the folder [code](./code) to your Matlab path.      
 3. Run "main_uniform.m".     
 
 User-specified parameter:
