@@ -49,7 +49,7 @@ IMPORTANT NOTE
 1. Following the equations in our paper
 2. Coded some process (e.g., FFT or correlation) by yourself instead of using in-built functions. Or check their settings first.
 
-### Please cite the papers if using the code to generate data (e.g., images, tables of processing times, etc.) in an academic publication. 
+### Please also cite the following papers if using the code to generate data (e.g., images, tables of processing times, etc.) in an academic publication. 
   [1] Li Xu, Cewu Lu, Yi Xu, and Jiaya Jia. Image smoothing via l0 gradient minimization. ACM Trans. Graph., 30(6):174, 2011     
   
   [2] S. Cho, J. Wang, and S. Lee, Handling outliers in non-blind image deconvolution. ICCV 2011.           
