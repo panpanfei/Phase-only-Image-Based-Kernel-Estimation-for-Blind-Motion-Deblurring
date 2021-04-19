@@ -9,21 +9,14 @@
     year={2019}     
 } 
 
-Notes 
-----------------   
-
-We give the result of our method in file 'result'. Include dataset from 'Levin', 'Kohler', 'Gong' and 'Pan'. For better result, some parameters are carefully designed. We also use some strategies like the 'patch-wise process' and 'coarse to fine', etc.         
-The current release version is for tackling uniform motion blur. The non-uniform deblurring can be achieved by segment the input blur image to overlapped square patches.  
-For details, please refer to our paper.  
-
 
 How to use
 ----------------
-The code is tested in MATLAB 2015b(64bit) under the ubuntu 14.04 LTS 64bit version with an Intel Core i7-4790 CPU and 6 GB RAM.
+The code is tested in MATLAB 2015b (64bit) under the ubuntu 14.04 LTS 64bit version with an Intel Core i7-4790 CPU and 6 GB RAM.
 
-1. unpack the package.      
-2. include code/Phase_for_public/ in your Matlab path.      
-3. Run "main_uniform.m" to try the examples included in this package.     
+1. Unpack the package.      
+2. Add code to your Matlab path.      
+3. Run "main_uniform.m".     
 
 User-specified parameter:
 ----------------
@@ -37,19 +30,22 @@ User-specified parameter:
 'iter_num'   :   Iteration number.          
 'lambda_grad' & lambda_l0 & lambda_tv: the weight for the L0/TV regularization.         
 
-IMPORTANT NOTE 
+NOTE 
 ----------------
-1. Note that the algorithm sometimes may converge to an incorrect result. When you obtain such an incorrect result, please re-try with slightly changed parameters (e.g., using large blur kernel sizes, fast, or iter_num).  
+1. The uploaded version is for tackling uniform motion blur. If you want to handle non-uniform blur, please refer to our paper. You need to segment an input blur image to overlapping square patches. For example, we segment the image into small patches in 80*80 with overlapping at 30 pixels.
 
-2. Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
+2. If you obtain incorrect result (the algorithm converges to a local minimum), please re-try with slightly changed parameters (e.g., using large blur kernel sizes, fast, or iter_num).  
 
-3. For the non-uniform blur, please refer to our paper and use a multi-patch strategy. For example, we segment the image into small patches in 80*80 with overlapping at 30 pixels.
+3. The results of our method on datasets ('Levin', 'Kohler', 'Gong' and 'Pan') are saved under the folder 'result'. 
 
-### Notes for reproducing. 
-1. Following the equations in our paper
-2. Coded some process (e.g., FFT or correlation) by yourself instead of using in-built functions. Or check their settings first.
+4. Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
 
-### Please also cite the following papers if using the code to generate data (e.g., images, tables of processing times, etc.) in an academic publication. 
+
+### Reproducing. 
+1. Exactly following the equations in our paper.
+2. Coding (e.g., FFT or correlation) by yourself instead of using in-built functions. 
+
+### Please also cite the following papers if you use the code to generate data (e.g., images, tables of processing times, etc.) in an academic publication. 
   [1] Li Xu, Cewu Lu, Yi Xu, and Jiaya Jia. Image smoothing via l0 gradient minimization. ACM Trans. Graph., 30(6):174, 2011     
   
   [2] S. Cho, J. Wang, and S. Lee, Handling outliers in non-blind image deconvolution. ICCV 2011.           
