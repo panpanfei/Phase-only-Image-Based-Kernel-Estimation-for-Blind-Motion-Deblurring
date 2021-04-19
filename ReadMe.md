@@ -14,10 +14,9 @@
   
   [2] S. Cho, J. Wang, and S. Lee, Handling outliers in non-blind image deconvolution. ICCV 2011.           
   
-  [3] Jinshan Pan, Deqing Sun, Hanspteter Pfister, and Ming-Hsuan Yang, Blind Image Deblurring Using Dark Channel Prior, CVPR, 2016.      
+  [3] Jinshan Pan, Deqing Sun, Hanspteter Pfister, and Ming-Hsuan Yang, Blind Image Deblurring Using Dark Channel Prior. CVPR, 2016.      
   
-  [4] Pan, Liyuan,  Yuchao Dai, Miaomiao Liu, and Fatih Porikli. Simultaneous stereo video deblurring and scene flow estimation.          
-      CVPR. 2017.     
+  [4] Pan, Liyuan,  Yuchao Dai, Miaomiao Liu, and Fatih Porikli. Simultaneous stereo video deblurring and scene flow estimation. CVPR. 2017.     
       
 More details can be found in our paper.  
 
