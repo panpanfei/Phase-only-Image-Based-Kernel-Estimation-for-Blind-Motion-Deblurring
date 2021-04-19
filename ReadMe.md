@@ -16,16 +16,15 @@ How to use
 The codes are tested in MATLAB 2015b (64bit) under ubuntu 14.04 LTS 64bit version with an Intel Core i7-4790 CPU and 6 GB RAM.
 
 1. Unpack the package.      
-2. Add the folder [code](./code) to your Matlab path.      
-3. Run "main_uniform.m".     
+2. Run "main_uniform.m".     
 
-User-specified parameter:
+User-specified parameters:
 ----------------
 ### There are a few parameters that need to be specified by users.
 
-'needsys'    :   1 for synthetic testing data. Blurred the image with a given kernel.     
-'motion'     :   1 for linear kernal.       
-'fast'       :   1 for fast processing strategy without coarse-to-fine.       
+* 'needsys'    :   1 for synthetic testing data. Blurred the image with a given kernel.     
+* 'motion'     :   1 for linear kernal.       
+* 'fast'       :   1 for fast processing strategy without coarse-to-fine.       
 'kernel_size':   The size of blur kernel.       
 'auto_size'  :   The scale for autocorrelation.           
 'iter_num'   :   Iteration number.          
