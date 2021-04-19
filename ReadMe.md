@@ -9,19 +9,6 @@
     year={2019}     
 } 
 
-### If you use our code, please also cite 
-  [1] Li Xu, Cewu Lu, Yi Xu, and Jiaya Jia. Image smoothing via l0 gradient minimization. ACM Trans. Graph., 30(6):174, 2011     
-  
-  [2] S. Cho, J. Wang, and S. Lee, Handling outliers in non-blind image deconvolution. ICCV 2011.           
-  
-  [3] Jinshan Pan, Deqing Sun, Hanspteter Pfister, and Ming-Hsuan Yang, Blind Image Deblurring Using Dark Channel Prior. CVPR, 2016.      
-  
-  [4] Pan, Liyuan,  Yuchao Dai, Miaomiao Liu, and Fatih Porikli. Simultaneous stereo video deblurring and scene flow estimation. CVPR. 2017.     
-      
-More details can be found in our paper.  
-
-### Please cite our paper if using the code to generate data (e.g., images, tables of processing times, etc.) in an academic publication.
-
 Notes 
 ----------------
 For algorithmic details, please refer to our paper.     
@@ -61,3 +48,13 @@ IMPORTANT NOTE
 ### Notes for reproducing. 
 1. Following the equations in our paper
 2. Coded some process (e.g., FFT or correlation) by yourself instead of using in-built functions. Or check their settings first.
+
+### Please cite the papers if using the code to generate data (e.g., images, tables of processing times, etc.) in an academic publication. 
+  [1] Li Xu, Cewu Lu, Yi Xu, and Jiaya Jia. Image smoothing via l0 gradient minimization. ACM Trans. Graph., 30(6):174, 2011     
+  
+  [2] S. Cho, J. Wang, and S. Lee, Handling outliers in non-blind image deconvolution. ICCV 2011.           
+  
+  [3] Jinshan Pan, Deqing Sun, Hanspteter Pfister, and Ming-Hsuan Yang, Blind Image Deblurring Using Dark Channel Prior. CVPR, 2016.      
+  
+  [4] Pan, Liyuan,  Yuchao Dai, Miaomiao Liu, and Fatih Porikli. Simultaneous stereo video deblurring and scene flow estimation. CVPR. 2017.     
+       
