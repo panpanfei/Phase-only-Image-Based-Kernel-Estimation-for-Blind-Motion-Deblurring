@@ -30,7 +30,7 @@ User-specified parameters:
 * 'iter_num'   :   Iteration number.          
 * 'lambda_grad' & lambda_l0 & lambda_tv: the weight for the L0/TV regularization.         
 
-NOTE 
+Notes 
 ----------------
 1. The uploaded version is for tackling uniform motion blur. If you want to handle non-uniform blur, please refer to our paper. You need to segment an input blur image to overlapping square patches. For example, we segment the image into small patches in 80*80 with overlapping at 30 pixels.
 
@@ -41,7 +41,7 @@ NOTE
 4. Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
 
 
-### Reproducing. 
+### Reproducing
 1. Exactly following the equations in our paper.
 2. Coding (e.g., FFT or correlation) by yourself instead of using in-built functions. 
 
