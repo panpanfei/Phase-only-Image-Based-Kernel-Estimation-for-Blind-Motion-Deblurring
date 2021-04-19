@@ -53,8 +53,7 @@ User-specified parameter:
 
 IMPORTANT NOTE 
 ----------------
-1. Note that the algorithm sometimes may converge to an incorrect result. When you obtain such an incorrect result, please re-try to  
-deblur with slightly changed parameters (e.g., using large blur kernel sizes, fast, or iter_num).  
+1. Note that the algorithm sometimes may converge to an incorrect result. When you obtain such an incorrect result, please re-try to  deblur with slightly changed parameters (e.g., using large blur kernel sizes, fast, or iter_num).  
 
 2. Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
 
