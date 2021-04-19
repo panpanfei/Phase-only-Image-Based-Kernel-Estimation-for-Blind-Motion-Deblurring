@@ -62,3 +62,7 @@ deblur with slightly changed parameters (e.g., using large blur kernel sizes, fa
 
 3. For the non-uniform blur, please refer to our paper and use a multi-patch strategy.
 For example, we segment the image into small patches in size 80*80 with an overlapping of 30 pixels.
+
+### Note for reproduced. 
+1. Following the equitions in our papar
+2. Coded some process (e.g., fft or corralation) by yourself instead of using inbuid functions.
