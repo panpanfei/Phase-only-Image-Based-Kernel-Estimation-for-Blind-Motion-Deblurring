@@ -25,10 +25,10 @@ User-specified parameters:
 * 'needsys'    :   1 for synthetic testing data. Blurred the image with a given kernel.     
 * 'motion'     :   1 for linear kernal.       
 * 'fast'       :   1 for fast processing strategy without coarse-to-fine.       
-'kernel_size':   The size of blur kernel.       
-'auto_size'  :   The scale for autocorrelation.           
-'iter_num'   :   Iteration number.          
-'lambda_grad' & lambda_l0 & lambda_tv: the weight for the L0/TV regularization.         
+* 'kernel_size':   The size of blur kernel.       
+* 'auto_size'  :   The scale for autocorrelation.           
+* 'iter_num'   :   Iteration number.          
+* 'lambda_grad' & lambda_l0 & lambda_tv: the weight for the L0/TV regularization.         
 
 NOTE 
 ----------------
