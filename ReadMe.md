@@ -18,8 +18,8 @@ The codes are tested in MATLAB 2015b (64bit) under ubuntu 14.04 LTS 64bit versio
 1. Unpack the package.      
 2. Run "main_uniform.m".     
 
-User-specified parameters:
-----------------
+### User-specified parameters:
+
 ### There are a few parameters that need to be specified by users.
 
 * 'needsys'    :   1 for synthetic testing data. Blurred the image with a given kernel.     
