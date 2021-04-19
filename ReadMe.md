@@ -2,36 +2,36 @@
 ### This package contains an implementation of the image deblurring algorithm described in the paper: 
 
 @inproceedings{pan2019phase,  
-  title={Phase-only image based kernel estimation for single image blind deblurring}, 
-  author={Pan, Liyuan and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},  
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},  
-  pages={6034--6043}, 
-  year={2019} 
+  title={Phase-only image based kernel estimation for single image blind deblurring},         
+  author={Pan, Liyuan and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},    
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},      
+  pages={6034--6043},     
+  year={2019}     
 } 
+
+### If you use our code, please also cite 
+  [1] Li Xu, Cewu Lu, Yi Xu, and Jiaya Jia. Image smoothing via l0 gradient minimization. ACM Trans. Graph., 30(6):174, 2011     
+  
+  [2] S. Cho, J. Wang, and S. Lee, Handling outliers in non-blind image deconvolution. ICCV 2011.           
+  
+  [3] Jinshan Pan, Deqing Sun, Hanspteter Pfister, and Ming-Hsuan Yang, Blind Image Deblurring Using Dark Channel Prior, CVPR, 2016.      
+  
+  [4] Pan, Liyuan,  Yuchao Dai, Miaomiao Liu, and Fatih Porikli. Simultaneous stereo video deblurring and scene flow estimation.          
+      CVPR. 2017.     
+      
+More details can be found in our paper.  
 
 ### Please cite our paper if using the code to generate data (e.g., images, tables of processing times, etc.) in an academic publication.
 
 Notes 
 ----------------
 For algorithmic details, please refer to our paper.     
-We give the result of our method in file 'result'. Include dataset from 'Levin', 'Kohler', 'Gong' and 'Pan'.    
-For better result, some parameters are carefully designed. We also use some strategies like the 'patch-wise process'        
-and 'coarse to fine', etc.    
-The current release version is for tackle uniform motion blur. The non-uniform deblurring can be achieved by segment      
-the input blur image to overlapped square patches.    
 
-### If you use our code, please also cite 
-  [1] Li Xu, Cewu Lu, Yi Xu, and Jiaya Jia. Image smoothing via l0      
-      gradient minimization. ACM Trans. Graph., 30(6):174, 2011     
-  [2] S. Cho, J. Wang, and S. Lee, Handling outliers in non-blind image         
-      deconvolution. ICCV 2011.       
-  [3] Jinshan Pan, Deqing Sun, Hanspteter Pfister, and Ming-Hsuan Yang,       
-      Blind Image Deblurring Using Dark Channel Prior, CVPR, 2016.        
-  [4] Pan, Liyuan,  Yuchao Dai, Miaomiao Liu, and Fatih Porikli.        
-      Simultaneous stereo video deblurring and scene flow estimation.          
-      CVPR. 2017.     
-      
-More details can be found in our paper.  
+We give the result of our method in file 'result'. Include dataset from 'Levin', 'Kohler', 'Gong' and 'Pan'. For better result, some          
+parameters are carefully designed. We also use some strategies like the 'patch-wise process' and 'coarse to fine', etc.         
+The current release version is for tackle uniform motion blur. The non-uniform deblurring can be achieved by segment the input blur           
+image to overlapped square patches.    
+
 
 How to use
 ----------------
@@ -44,9 +44,7 @@ The code is tested in MATLAB 2015b(64bit) under the ubuntu 14.04 LTS 64bit versi
 User-specified parameter:
 ----------------
 ### There are a few parameters that need to be specified by users.
- 
-Kernel estimation part:
----------------
+
 'needsys'    :   1 for synthetic testing data. Blurred the image with a given kernel.     
 'motion'     :   1 for linear kernal.       
 'fast'       :   1 for fast processing strategy without coarse-to-fine.       
