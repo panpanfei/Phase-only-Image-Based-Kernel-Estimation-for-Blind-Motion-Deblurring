@@ -1,6 +1,7 @@
 # For academic use only.
-### This package contains an implementation of the image deblurring algorithm described in the paper: 
+This contains an implementation of the image deblurring algorithm described in: [Phase-only image based kernel estimation for single image blind deblurring, CVPR2019.](https://openaccess.thecvf.com/content_CVPR_2019/papers/Pan_Phase-Only_Image_Based_Kernel_Estimation_for_Single_Image_Blind_Deblurring_CVPR_2019_paper.pdf) 
 
+<pre>
 @inproceedings{pan2019phase,  
     title={Phase-only image based kernel estimation for single image blind deblurring},         
     author={Pan, Liyuan and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},    
@@ -8,7 +9,7 @@
     pages={6034--6043},     
     year={2019}     
 } 
-
+</pre>
 
 How to use
 ----------------
