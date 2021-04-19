@@ -10,11 +10,11 @@
 } 
 
 Notes 
-----------------
-For algorithmic details, please refer to our paper.     
+----------------   
 
 We give the result of our method in file 'result'. Include dataset from 'Levin', 'Kohler', 'Gong' and 'Pan'. For better result, some parameters are carefully designed. We also use some strategies like the 'patch-wise process' and 'coarse to fine', etc.         
-The current release version is for tackling uniform motion blur. The non-uniform deblurring can be achieved by segment the input blur image to overlapped square patches.    
+The current release version is for tackling uniform motion blur. The non-uniform deblurring can be achieved by segment the input blur image to overlapped square patches.  
+For details, please refer to our paper.  
 
 
 How to use
@@ -39,7 +39,7 @@ User-specified parameter:
 
 IMPORTANT NOTE 
 ----------------
-1. Note that the algorithm sometimes may converge to an incorrect result. When you obtain such an incorrect result, please re-try to deblur with slightly changed parameters (e.g., using large blur kernel sizes, fast, or iter_num).  
+1. Note that the algorithm sometimes may converge to an incorrect result. When you obtain such an incorrect result, please re-try with slightly changed parameters (e.g., using large blur kernel sizes, fast, or iter_num).  
 
 2. Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
 
